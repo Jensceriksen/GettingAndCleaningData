@@ -10,6 +10,7 @@ that contains average values of mean and standarddeviation data from all subject
 The script analyses a dataset from Samsung smartphones, and as such it is required that the dataset is present in your
 working directory. 
 The dataset can be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 More information on the dataset can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ## Codebook
