@@ -6,6 +6,8 @@ The tidy data set was created by using the script "run_analysis.R", described in
 
 The original data was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+
+
 #### run_analysis.R description
 The run_analysis.R script was used to tidy up the original data, by following the following steps:
 1. Loads subject files, training and test sets, and training and test labels, and merges them all together by using rbind()
@@ -21,6 +23,8 @@ The run_analysis.R script was used to tidy up the original data, by following th
 6. A dataset containing average values of each variable for each activity and subject, is created by using the aggregate() function.
 
 7. Finally, the dataset containing average values of each variable for each activity and subject, is saved in a .txt file in the working directory
+
+
 
 #### Variable list
 "xyz" denotes that this variable is available in an x, y, and z version (axis orientation).
