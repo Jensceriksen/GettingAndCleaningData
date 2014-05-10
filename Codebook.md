@@ -1,12 +1,12 @@
 Codebook for run_analysis.R
 ============================
-# Data
+### Data
 The file "tidy_data.txt" contains a dataset with 180 rows and 68 columns, summarizing the raw data from the training and test measurements. The first column contains the subject id, the second column contains the activity for which the measurements were obtained. The rest of the columns contain mean and standarddeviation values of the measurements (variable names are shown in the section "Variable list", in this codebook.
 The tidy data set was created by using the script "run_analysis.R", described in the next section.
 
 The original data was obtained from:
 
-# run_analysis.R
+### run_analysis.R
 The run_analysis.R script was used to tidy up the original data, by following the following steps:
 1. Loads subject files, training and test sets, and training and test labels, and merges them all together by using rbind()
 
@@ -22,7 +22,7 @@ The run_analysis.R script was used to tidy up the original data, by following th
 
 7. Finally, the dataset containing average values of each variable for each activity and subject, is saved in a .txt file in the working directory
 
-# Variable list
+### Variable list
 "xyz" denotes that this variable is available in an x, y, and z version (axis orientation).
 Furthermore, all variables are only present as a mean or standarddeviation average, denoted by "-", which can be either "mean" or "std".
 
