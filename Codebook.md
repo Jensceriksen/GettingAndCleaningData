@@ -4,7 +4,7 @@ Codebook for run_analysis.R
 The file "tidy_data.txt" contains a dataset with 180 rows and 68 columns, summarizing the raw data from the training and test measurements. The first column contains the subject id, the second column contains the activity for which the measurements were obtained. The rest of the columns contain mean and standarddeviation values of the measurements (variable names are shown in the section "Variable list", in this codebook.
 The tidy data set was created by using the script "run_analysis.R", described in the next section.
 
-The original data was obtained from:
+The original data was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 #### run_analysis.R description
 The run_analysis.R script was used to tidy up the original data, by following the following steps:
