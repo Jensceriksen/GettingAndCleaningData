@@ -12,7 +12,7 @@ working directory.
 
 The dataset can be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-**The dataset needs to be unzipped, with no change to the folder structure.**
+**The dataset needs to be unzipped, with no change to the folder structure. Set your working directory to the parent data set directory.**
 
 More information on the dataset can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
